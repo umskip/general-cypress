@@ -1,0 +1,23 @@
+{
+  "URL": "/your-shop",
+  "login": {
+    "EMAIL": "cefatin835@zcai55.com",
+    "PASSWORD": "Testing123!"
+  },
+  "registration": {
+    "DOMAIN": "@random.com",
+    "FIRST_NAME": "FirstName",
+    "LAST_NAME": "LastName"
+  },
+
+  "checkout": {
+    "ADDRESS": "20 Stephen Street Lower",
+    "EIRCODE": "D02 FW59",
+    "CITY": "Dublin 2",
+    "DOB": "11/11/1975",
+    "PHONE_NO": "0874131625"
+  },
+  "message": {
+    "ERROR_MESSAGE": "Unfortunately, we could not complete your payment. We can only process credit card payments if your delivery country is the same as your credit card issuing country."
+  }
+}

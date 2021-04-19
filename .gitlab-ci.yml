@@ -1,0 +1,17 @@
+image: cypress/browsers:node14.16.0-chrome89-ff86
+
+stages:
+  - test
+test:
+  stage: test
+  script:
+    - npm install
+    - npm run cypress:chrome cypress/integration/features/WA.GeneralFlow.feature
+
+  artifacts:
+      when: always
+      paths:
+        - cypress/reports/
+        - cypress/screenshots/
+        - cypress/videos/
+      expire_in: 1 week

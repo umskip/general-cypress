@@ -1,0 +1,9 @@
+{
+    "userIcon": "li[data-test-id='UserAccount']", 
+    "loginBtn": "button[aria-label='Log in']",
+    "registerTab": "div[class='sc-fzXfOv sc-fzXfOw cGBjJN']",
+    "loginTab": "div[class='sc-fzXfOv crsuWC']",
+    "home": "span[data-test-id='TextLogoContainer']",
+    "basket": "a[class=\"basketIcon--2pkWV link--3AVMa\"]"
+
+}

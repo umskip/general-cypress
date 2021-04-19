@@ -1,0 +1,6 @@
+{
+    "emailField": "input[data-testid=\"EmailField\"]",
+    "passwordField": "input[data-testid=\"PasswordField\"]",
+    "loginBtn": "button[data-testid=\"SubmitLogin\"]"
+
+}

@@ -1,0 +1,10 @@
+{
+    "firstName": "input[data-testid=\"FirstnameField\"]",
+    "lastName": "input[data-testid=\"LastNameField\"]",
+    "email": "input[data-testid=\"EmailField\"]",
+    "password": "input[data-testid=\"PasswordField\"]",
+    "mrGender": ":nth-child(2) > .sc-fzXfNc",
+    "mrsGender": "input[data-testid=\"RadioButtonFemale\"]",
+    "registerBtn": "button[data-testid=\"RegisterSubmitButton\"]"
+    
+}

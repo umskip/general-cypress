@@ -1,0 +1,27 @@
+{
+    "menClothes": "span[data-test-id=\"Label_Men\"]", 
+    "clothingTab": "span[data-test-id=\"Label_Clothing\"]",
+    "shoesTab": "span[data-test-id=\"Label_Shoes\"]",
+    "jeans": "span[data-test-id=\"category_name_Jeans\"]",
+    "shirt": "span[data-test-id=\"category_name_T-shirts\"]",
+    "addBtn": "button[data-test-id=\"A2BButton\"]",
+    "backBtn": "div[class=\"arrow--1ZNic\"]",
+
+    "selectMenJeans": "a[id=\"3446375\"]",
+    "jeansWidth": "[data-test-id='GenericDropdown'][aria-labelledby='size-dimension-1-label'] > .s3zbwt-3 > .sc-807db0-3 > .sc-807db0-0",
+    "jeansSelectWidth": "div[class=\"sc-3ogcml-0 sc-4jojil-4 iFBAnc\"]",
+    "jeansLenght": "[data-test-id='GenericDropdown'][aria-labelledby='size-dimension-2-label'] > .s3zbwt-3 > .sc-807db0-3 > .sc-807db0-0",
+    "jeansSelectLenght": "div[class=\"sc-3ogcml-0 sc-4jojil-4 iFBAnc\"]",
+
+    "selectShirt": "a[id=\"4532622\"]",
+    "shirtSize": "button[aria-label=\"open menu\"]",
+    "shirtSelectSize": "div[class=\"sc-3ogcml-0 sc-4jojil-4 iFBAnc\"]",
+
+    "shoesSizeFilter": "#unfolding_filter_box_id_Size",
+    "shoesSizeNoFilter": "button[class=\"pf6f29-0-button fsSqQP sc-1pvegpl-0 hlqcLS mdc-ripple-surface mdc-ripple-upgraded zax1b4-1 khYITk\"]",
+    "selectMenShoes": "a[id=\"3270704\"]",
+    "selectMenShoesColor": "[data-index='7'] > :nth-child(1) > a > .jlvxcb-3 > .jlvxcb-2",
+    "shoesSize": "button[aria-label=\"open menu\"]",
+    "shoesSelectSize": "div[class=\"sc-3ogcml-0 sc-4jojil-4 iFBAnc\"]"
+
+}

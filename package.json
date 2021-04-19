@@ -1,0 +1,47 @@
+{
+  "name": "general-cypress-project-aboutyou",
+  "version": "1.0.0",
+  "description": "cypress demo",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "node_modules/.bin/cypress open",
+    "cypress:specific": "cypress run --spec",
+    "cypress:chrome": "cypress run --browser chrome --spec",
+    "cypress:chromeHeadless": "cypress run --headless chrome --spec",
+    "cypress:firefox": "cypress run --browser firefox --spec",
+    "cypress:edge": "cypress run --browser edge --spec",
+    "generate:reports": "marge cypress/report/index.json --reportDir ./ --inline",
+    "combine:reports": "mochawesome-merge cypress/report/mochawesome-report-UI/*.json > cypress/report/index.json",
+    "clean:reports": "run-script-os"
+  },
+  "keywords": [
+    "cypress",
+    "demo",
+    "aboutyou"
+  ],
+  "author": "dvelkovski",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^7.1.0",
+    "cypress-cucumber-preprocessor": "^4.0.3",
+    "cypress-file-upload": "^5.0.6",
+    "cypress-multi-reporters": "^1.5.0",
+    "cypress-xpath": "^1.6.2",
+    "lodash": "^4.17.21",
+    "mocha": "^8.3.2",
+    "mochawesome": "^6.2.2",
+    "mochawesome-merge": "^4.2.0",
+    "mochawesome-report-generator": "^5.2.0",
+    "multiple-cucumber-html-reporter": "^1.18.0",
+    "run-script-os": "^1.1.6",
+    "typescript": "^4.2.4"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  },
+  "dependencies": {
+    "@cypress/schema-tools": "^4.7.7",
+    "json-schema-to-typescript": "^10.1.4",
+    "ts-node": "^9.1.1"
+  }
+}

@@ -1,0 +1,24 @@
+{
+    "chromeWebSecurity": false,
+    "defaultCommandTimeout": 10000,
+    "video": false,
+    "env": {},
+    "requestTimeout": 20000,
+    "reporter": "mochawesome",
+    "reporterOptions": {
+      "charts": true,
+      "overwrite": true,
+      "html": true,
+      "json": true,
+      "reportDir": "cypress/reports"
+    },
+    "screenshotsFolder": "cypress/screenshots",
+    "supportFile": "cypress/support",
+    "testFiles": "**/*.{feature,features}",
+    "experimentalSourceRewriting": false
+    
+  }
+
+
+
+ 

@@ -1,0 +1,35 @@
+{
+    "finalizeOrderBtn": "button[class=\"checkoutButton--3DjT- regular--1Rulh\"]",
+    "continiueAsGuestBtn": "div[data-testid=\"GuestSessionExpander\"]",
+
+    "mrGenderGuest": "#modal-root > div > div > div > div > div.sc-fzXfPK.ctQOAQ > div:nth-child(2) > form:nth-child(6) > div.sc-fzXfRb.dxieKX > fieldset > div > label:nth-child(2) > div",
+    "firstNameGuestField": "#modal-root > div > div > div > div > div.sc-fzXfPK.ctQOAQ > div:nth-child(2) > form:nth-child(6) > div.sc-fzXfRa.kIClor > div.sc-fzXfPf.cykAjz.sc-fzXfQt.sc-LzLqC.eiamcF > label > input",
+    "lastNameGuestField": "#modal-root > div > div > div > div > div.sc-fzXfPK.ctQOAQ > div:nth-child(2) > form:nth-child(6) > div.sc-fzXfRa.kIClor > div.sc-fzXfPf.cykAjz.sc-fzXfQt.sc-LzLqC.kYWoIR > label > input",
+    "emailGuestField": "#modal-root > div > div > div > div > div.sc-fzXfPK.ctQOAQ > div:nth-child(2) > form:nth-child(6) > div.sc-fzXfPf.cykAjz.sc-fzXfQt.jFphNa > label > input",
+    "continiueAsGuestBtn2": "button[aria-label=\"Continue as a guest\"]",
+    "addressField": "#theme-aboutyou-com > main > div > div.route-content > div:nth-child(1) > div.billing-address > form > div:nth-child(1) > div:nth-child(2) > input",
+    "eirCodeField": "#theme-aboutyou-com > main > div > div.route-content > div:nth-child(1) > div.billing-address > form > div:nth-child(1) > div.form-group.city > div.o-input.input.form-input-text > input",
+    "cityField": "#theme-aboutyou-com > main > div > div.route-content > div:nth-child(1) > div.billing-address > form > div:nth-child(1) > div.form-group.city > div.o-input.input.form-input-city > input",
+    "DOB": "#theme-aboutyou-com > main > div > div.route-content > div:nth-child(1) > div.billing-address > form > div.row > div > div.o-input.input.form-input-date.has-icon.is-masked > input.invalid.untouched.pristine",
+    "genderBtn": "input[id=\"billing-male\"]",
+    "continueToPaymentBtn": "button[class=\"primary\"]",
+    "confirmAddressBtn": "#theme-aboutyou-com > main > div > div.route-content > div:nth-child(1) > div.billing-address > form > div:nth-child(1) > div.modal-wrapper.address-suggestions.modal-transition > div > div > div.modal-body > form > button",
+    "phoneNo": "#carrierPhone",
+    "orderBtn": "#sticky-button > button",
+
+    "cardName": "input[name=\"card-holder-name\"]",
+    "cardNo": "input[name=\"KKnr\"]",
+    "cardMonth": "#s2id_autogen1 > a",
+    "selectMonth": "#select2-results-2 > li:nth-child(6)",
+    "cardYear": "#s2id_autogen3 > a",
+    "selectYear": "#select2-results-4 > li:nth-child(4)",
+    "cvc": "#SSLForm > div.row.security > div.checknumber > div > input[type=text]",
+    "finalizePaymentBtn": "#submit1",
+
+    "verifyMessage": "#theme-aboutyou-com > main > div > div.route-content > div:nth-child(1) > div.payment-selection > div.payment-selection-list > ul > li:nth-child(1) > p",
+
+    "iFrame": "#credit-card-modal > div > div > div.modal-body > iframe",
+    
+    "continueShoppingBtn": "#theme-aboutyou-com > header > div > nav > ul > li:nth-child(1) > a" 
+
+}
